@@ -36,9 +36,9 @@ Bonus points
 
 -   Have a search function
      
--   List presented in a proper paginated manner
+-   Presenting the lists in a appealing UI/UX form
 
--   Rating a movie or adding to watch list
+-   Having a rating or add to watch list
 
 Deliverables
 ------------
