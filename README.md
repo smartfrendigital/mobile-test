@@ -109,8 +109,7 @@ Expected output
 Deliverables
 ------------
 
-The problem must be solved using any language familiar to you. NodeJS &
-Java are preferred.
+The problem must be solved using reactNative, swift, kotlin or java android.
 
 All solutions must be delivered in git repository form. Github and
 bitbucket links are preferred.
