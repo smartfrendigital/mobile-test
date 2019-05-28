@@ -6,7 +6,7 @@ Description
 
 -   The application is a catalog listing for movies & TV shows
 -   You can register for an API key https://developers.themoviedb.org/3/getting-started/introduction
--   The api documentation is available at https://www.themoviedb.org/documentation/api
+-   The API documentation is available at https://www.themoviedb.org/documentation/api
 -   You are to follow the detailed instructions as below
 
 Create an application that can present at-least 4 of the following lists, the more the better:
