@@ -1,110 +1,43 @@
-Toy Robot Simulator
+Mobile Test
 ===================
 
 Description
 -----------
 
--   The application is a simulation of a toy robot moving on a square
-    tabletop,\
-     of dimensions 5 units x 5 units.
--   There are no other obstructions on the table surface.
--   The robot is free to roam around the surface of the table, but must
-    be\
-     prevented from falling to destruction. Any movement that would
-    result in the\
-     robot falling from the table must be prevented, however further
-    valid\
-     movement commands must still be allowed.
+-   The application is a catalog listing for movies & TV shows
+-   The api is provided by https://www.themoviedb.org/documentation/api
+-   You are to follow the detailed instructions as below
 
-Create an application that can read in commands of the following
-(textual) form:
+Create an application that can present at-least 4 of the following lists, the more the better:
 
-    PLACE X,Y,F
-    MOVE
-    LEFT
-    RIGHT
-    REPORT
+    Top rated movies
+    Upcoming movies
+    Now playing movies
+    Popular movies
+    Popular TV shows
+    Top rated TV shows
+    On the air TV shows
+    Airing today TV shows
+    Popular people
 
--   PLACE will put the toy robot on the table in position X,Y and facing
-    NORTH,\
-     SOUTH, EAST or WEST.
+-   Your application must have a splash screen
 
--   The origin (0,0) can be considered to be the SOUTH WEST most corner.
+-   The application must present the lists in a presentable menu i.e. drawer, bottom mmenu, top menu and such
 
--   The first valid command to the robot is a PLACE command, after that,
-    any\
-     sequence of commands may be issued, in any order, including another
-    PLACE\
-     command. The application should discard all commands in the
-    sequence until\
-     a valid PLACE command has been executed.
+-   The application must show valid state for loading the data
 
--   MOVE will move the toy robot one unit forward in the direction it
-    is\
-     currently facing.
+-   Provide unit tests to validate that the listing works as intended
 
--   LEFT and RIGHT will rotate the robot 90 degrees in the specified
-    direction\
-     without changing the position of the robot.
+-   The application must a mobile application
 
--   REPORT will announce the X,Y and F of the robot. This can be in any
-    form,\
-     but standard output is sufficient.
-
--   A robot that is not on the table can choose the ignore the MOVE,
-    LEFT, RIGHT\
-     and REPORT commands.
-
--   Input can be from a file, or from standard input, as the developer
-    chooses.
-
--   Provide test data to exercise the application.
-
--   The application must be a command line application.
-
-Constraints
+Bonus points
 -----------
 
--   The toy robot must not fall off the table during movement. This
-    also\
-     includes the initial placement of the toy robot.
--   Any move that would cause the robot to fall must be ignored.
+-   Have a search function
+     
+-   List presented in a proper paginated manner
 
-Example Input and Output
-------------------------
-
-### Example a
-
-    PLACE 0,0,NORTH
-    MOVE
-    REPORT
-
-Expected output:
-
-    0,1,NORTH
-
-### Example b
-
-    PLACE 0,0,NORTH
-    LEFT
-    REPORT
-
-Expected output:
-
-    0,0,WEST
-
-### Example c
-
-    PLACE 1,2,EAST
-    MOVE
-    MOVE
-    LEFT
-    MOVE
-    REPORT
-
-Expected output
-
-    3,3,NORTH
+-   Rating a movie or adding to watch list
 
 Deliverables
 ------------
