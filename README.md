@@ -29,7 +29,7 @@ Create an application that can present at-least 4 of the following lists, the mo
 
 -   Provide unit tests to validate that the listing works as intended
 
--   The application must a mobile application
+-   The application must be a mobile application
 
 Bonus points
 -----------
