@@ -23,7 +23,7 @@ Create an application that can present at-least 4 of the following lists, the mo
 
 -   Your application must have a splash screen
 
--   The application must present the lists in a presentable menu i.e. drawer, bottom mmenu, top menu and such
+-   The application must present the lists in a presentable menu i.e. drawer, bottom menu, top menu and such
 
 -   The application must show valid state for loading the data
 
